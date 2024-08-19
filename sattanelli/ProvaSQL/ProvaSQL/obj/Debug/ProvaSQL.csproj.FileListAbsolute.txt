@@ -1,8 +1,0 @@
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\bin\Debug\ProvaSQL.exe.config
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\bin\Debug\ProvaSQL.exe
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\bin\Debug\ProvaSQL.pdb
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\obj\Debug\ProvaSQL.csproj.AssemblyReference.cache
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\obj\Debug\ProvaSQL.csproj.SuggestedBindingRedirects.cache
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\obj\Debug\ProvaSQL.csproj.CoreCompileInputs.cache
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\obj\Debug\ProvaSQL.exe
-C:\Users\marcom\Documents\GitHub\SeidLib\Generator\ProvaSQL\ProvaSQL\obj\Debug\ProvaSQL.pdb
