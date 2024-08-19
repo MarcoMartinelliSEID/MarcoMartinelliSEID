@@ -1,0 +1,625 @@
+[
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "RESET",
+    "description": "1 = Reset",
+    "address": "M 28.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "CMN_FO",
+    "description": "Common First Out",
+    "address": "M 144.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "CMN_ALM_TIMER",
+    "description": "Common Alarm Timer",
+    "address": "T 101",
+    "type": "TIMER"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "CMN_SH_TIMER",
+    "description": "Common Shutdown Timer",
+    "address": "T 102",
+    "type": "TIMER"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_414_FLD",
+    "description": "DCS EMERGENCY SHUTDOWN PERSONNEL",
+    "address": "E 112.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_415_FLD",
+    "description": "REMOTE FAST STOP COMPRESSOR",
+    "address": "E 112.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TBD_FLD",
+    "description": "TRIP FROM ESD",
+    "address": "E 112.4",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_202_FLD",
+    "description": "EMERGENCY RELAY FEEDBACK",
+    "address": "E 112.6",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "HS_330_FLD",
+    "description": "EMERGENCY STOP PUSHBUTTON FROM UCP",
+    "address": "E 112.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_403_FLD",
+    "description": "CONTROL VIA HW INTERFACE",
+    "address": "E 65.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_405_FLD",
+    "description": "REMOTE START COMPRESSOR",
+    "address": "E 66.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_404_FLD",
+    "description": "REMOTE STOP COMPRESSOR",
+    "address": "E 66.1",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_406_FLD",
+    "description": "REMOTE PRODUCTION",
+    "address": "E 66.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_407_FLD",
+    "description": "REMOTE RESET",
+    "address": "E 66.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_100_FLD",
+    "description": "MAIN MOTOR RUNNING FEEDBACK",
+    "address": "E 66.5",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_101_FLD",
+    "description": "MAIN MOTOR FAULT FEEDBACK",
+    "address": "E 66.6",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_102_FLD",
+    "description": "EMERGENCY STOP FROM MCC",
+    "address": "E 66.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_103_FLD",
+    "description": "HIGH TEMPERATURE FROM MCC",
+    "address": "E 67.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_104_FLD",
+    "description": "MAIN CIRCUIT BREAKER FAULT",
+    "address": "E 67.1",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TSH_001_FLD",
+    "description": "UCP INTERNAL HIGH TEMPERATURE",
+    "address": "E 67.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PSA_001_FLD",
+    "description": "UCP 24VDC POWER SUPPLY FAULT ",
+    "address": "E 67.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "HS_320_FLD",
+    "description": "LOCAL/REMOTE SELECTOR",
+    "address": "E 67.4",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "HS_340_FLD",
+    "description": "COMPRESSOR START BUTTON",
+    "address": "E 67.5",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "HS_350_FLD",
+    "description": "COMPRESSOR STOP BUTTON",
+    "address": "E 67.6",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "HS_360_FLD",
+    "description": "ALARM RESET",
+    "address": "E 67.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_212_FLD",
+    "description": "COMMON TRIP TO ESD",
+    "address": "A 119.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_416_FLD",
+    "description": "COMPRESSOR TRIP",
+    "address": "A 119.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_419_FLD",
+    "description": "COMPRESSOR EMERGENCY SHUTDOWN PERSONNEL",
+    "address": "A 119.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_111_20_FLD",
+    "description": "NON RETURN VALVE",
+    "address": "A 16.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_121_1_FLD",
+    "description": "F 121 PURGE VALVE",
+    "address": "A 16.1",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_122_1_FLD",
+    "description": "F 122 PURGE VALVE",
+    "address": "A 16.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_123_1_FLD",
+    "description": "F 123 PURGE VALVE",
+    "address": "A 16.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_222_FLD",
+    "description": "SLIDE VALVE CONTROL LOAD",
+    "address": "A 16.4",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_223_FLD",
+    "description": "SLIDE VALVE CONTROL UNLOAD",
+    "address": "A 16.5",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_409_FLD",
+    "description": "REMOTE CONTROL ACTIVE",
+    "address": "A 18.6",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_410_FLD",
+    "description": "COMPRESSOR READY TO START",
+    "address": "A 18.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_411_FLD",
+    "description": "COMPRESSOR IDLE MODE",
+    "address": "A 19.0",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_412_FLD",
+    "description": "COMPRESSOR IN PRODUCTION",
+    "address": "A 19.1",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_413_FLD",
+    "description": "COMPRESSOR WARNING",
+    "address": "A 19.2",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_200_FLD",
+    "description": "MAIN MOTOR START COMMAND",
+    "address": "A 19.3",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XS_201_FLD",
+    "description": "MAIN MOTOR STOP COMMAND",
+    "address": "A 19.4",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XL_370_FLD",
+    "description": "COMPRESSOR RUNNING",
+    "address": "A 19.5",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XL_380_FLD",
+    "description": "COMPRESSOR STOP",
+    "address": "A 19.6",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "XL_390_FLD",
+    "description": "COMPRESSOR TRIP",
+    "address": "A 19.7",
+    "type": "BOOL"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PY_123_1_FLD",
+    "description": "COMPRESSOR RECYCLE VALVE",
+    "address": "AW 0",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TY_450_1_FLD",
+    "description": "OIL COOLER - COOLING WATER RETURN",
+    "address": "AW 2",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TY_440_FLD",
+    "description": "GAS COOLER - COOLING WATER RETURN",
+    "address": "AW 4",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_104_FLD",
+    "description": "GAS SUCTION PRESSURE",
+    "address": "EW 0",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_107_1_FLD",
+    "description": "GAS SUCTION TEMPERATURE",
+    "address": "EW 2",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_124_FLD",
+    "description": "GAS DISCHARGE PRESSURE",
+    "address": "EW 4",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_120_FLD",
+    "description": "DIFFERENTIAL PRESSURE GAS-OIL SEPARATOR",
+    "address": "EW 6",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_121_FLD",
+    "description": "1st STAGE FILTER DIFFERENTIAL PRESSURE",
+    "address": "EW 8",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_122_FLD",
+    "description": "2nd STAGE FILTER DIFFERENTIAL PRESSURE",
+    "address": "EW 10",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_123_FLD",
+    "description": "3rd STAGE FILTER DIFFERENTIAL PRESSURE",
+    "address": "EW 12",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_124_FLD",
+    "description": "4th STAGE FILTER DIFFERENTIAL PRESSURE",
+    "address": "EW 14",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "GT_123_3_FLD",
+    "description": "RECYCLE VALVE POSITION FEEDBACK",
+    "address": "EW 16",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDT_206_FLD",
+    "description": "PRIMARY OIL FILTER DIFFERENTIAL PRESSURE",
+    "address": "EW 18",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "GT_450_3_FLD",
+    "description": "WATER CONTROL VALVE POSITION FEEDBACK",
+    "address": "EW 20",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "GT_440_FLD",
+    "description": "WATER CONTROL VALVE POSITION FEEDBACK",
+    "address": "EW 22",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "GT_168_FLD",
+    "description": "SLIDE VALVE POSITION FEEDBACK ",
+    "address": "EW 24",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_125_FLD",
+    "description": "GAS TEMPERATURE DOWNSTREAM GAS COOLER",
+    "address": "EW 28",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_401_FLD",
+    "description": "SET SLIDE POSITION",
+    "address": "EW 40",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "KF_408_FLD",
+    "description": "SET RECYCLE VALVE POSITION",
+    "address": "EW 44",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PGP_202_FLD",
+    "description": "CALCULATED OIL - GAS PRESSURE RATIO (PT124 / PT105)",
+    "address": "EW 1000",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PDP_203_FLD",
+    "description": "CALCULATED COMPRESSOR DIFFERENTIAL PRESSURE (PT124 - PT105)",
+    "address": "EW 1001",
+    "type": "INT"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_105",
+    "description": "GAS SUCTION PRESSURE",
+    "address": "DB 1301",
+    "type": "DB 1301"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_105_FLD",
+    "description": "GAS SUCTION PRESSURE",
+    "address": "EW 70",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_113",
+    "description": "GAS DISCHARGE PRESSURE",
+    "address": "DB 1302",
+    "type": "DB 1302"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_113_FLD",
+    "description": "GAS DISCHARGE PRESSURE",
+    "address": "EW 72",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_114",
+    "description": "GAS DISCHARGE TEMPERATURE",
+    "address": "DB 1303",
+    "type": "DB 1303"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_114_FLD",
+    "description": "GAS DISCHARGE TEMPERATURE",
+    "address": "EW 74",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_128",
+    "description": "GAS TEMPERATURE DOWNSTREAM GAS COOLER",
+    "address": "DB 1304",
+    "type": "DB 1304"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_128_FLD",
+    "description": "GAS TEMPERATURE DOWNSTREAM GAS COOLER",
+    "address": "EW 76",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_208",
+    "description": "LUBE OIL TEMPERATURE ",
+    "address": "DB 1305",
+    "type": "DB 1305"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TT_208_FLD",
+    "description": "LUBE OIL TEMPERATURE ",
+    "address": "EW 84",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_501",
+    "description": "INSTRUMENT AIR PRESSURE",
+    "address": "DB 1306",
+    "type": "DB 1306"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "PT_501_FLD",
+    "description": "INSTRUMENT AIR PRESSURE",
+    "address": "EW 86",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_111_13",
+    "description": "COMPRESSOR HOUSING VIBRATION",
+    "address": "DB 1308",
+    "type": "DB 1308"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_111_13_FLD",
+    "description": "COMPRESSOR HOUSING VIBRATION",
+    "address": "EW 98",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_112_13",
+    "description": "MAIN MOTOR BEARING  DE VIBRATION",
+    "address": "DB 1309",
+    "type": "DB 1309"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_112_13_FLD",
+    "description": "MAIN MOTOR BEARING  DE VIBRATION",
+    "address": "EW 100",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_112_14",
+    "description": "MAIN MOTOR BEARING NDE VIBRATION",
+    "address": "DB 1310",
+    "type": "DB 1310"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "VT_112_14_FLD",
+    "description": "MAIN MOTOR BEARING NDE VIBRATION",
+    "address": "EW 102",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_5_I",
+    "description": "MAIN MOTOR WINDING TEMPERATURE U",
+    "address": "DB 1311",
+    "type": "DB 1311"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_5_I_FLD",
+    "description": "MAIN MOTOR WINDING TEMPERATURE U",
+    "address": "EW 129",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_6_I",
+    "description": "MAIN MOTOR WINDING TEMPERATURE V",
+    "address": "DB 1312",
+    "type": "DB 1312"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_6_I_FLD",
+    "description": "MAIN MOTOR WINDING TEMPERATURE V",
+    "address": "EW 131",
+    "type": "WORD"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_7_I",
+    "description": "MAIN MOTOR WINDING TEMPERATURE W",
+    "address": "DB 1313",
+    "type": "DB 1313"
+  },
+  {
+    "py/object": "SiemensSymbol.SiemensSymbol",
+    "tag": "TE_112_7_I_FLD",
+    "description": "MAIN MOTOR WINDING TEMPERATURE W",
+    "address": "EW 133",
+    "type": "WORD"
+  }
+]

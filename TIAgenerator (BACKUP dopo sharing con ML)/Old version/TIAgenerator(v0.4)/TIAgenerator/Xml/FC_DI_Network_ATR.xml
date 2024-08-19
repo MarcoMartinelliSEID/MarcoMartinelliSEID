@@ -1,0 +1,260 @@
+﻿<SW.Blocks.CompileUnit ID="26" CompositionName="CompileUnits">
+	<AttributeList>
+		<NetworkSource>
+			<FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+				<Parts>
+					<Access Scope="GlobalVariable" UId="21">
+						<Symbol>
+							<Component Name="XA_001_FLD" />
+						</Symbol>
+					</Access>
+					<Access Scope="GlobalVariable" UId="22">
+						<Symbol>
+							<Component Name="IR_READY_FLDR" />
+						</Symbol>
+					</Access>
+					<Access Scope="GlobalVariable" UId="23">
+						<Symbol>
+							<Component Name="MSTR_RESET" />
+						</Symbol>
+					</Access>
+					<Access Scope="LiteralConstant" UId="24">
+						<Constant>
+							<ConstantType>Bool</ConstantType>
+							<ConstantValue>false</ConstantValue>
+						</Constant>
+					</Access>
+					<Access Scope="LiteralConstant" UId="25">
+						<Constant>
+							<ConstantType>Bool</ConstantType>
+							<ConstantValue>false</ConstantValue>
+						</Constant>
+					</Access>
+					<Access Scope="TypedConstant" UId="26">
+						<Constant>
+							<ConstantValue>t#1s</ConstantValue>
+						</Constant>
+					</Access>
+					<Access Scope="LiteralConstant" UId="27">
+						<Constant>
+							<ConstantType>Bool</ConstantType>
+							<ConstantValue>false</ConstantValue>
+						</Constant>
+					</Access>
+					<Access Scope="LiteralConstant" UId="28">
+						<Constant>
+							<ConstantType>Bool</ConstantType>
+							<ConstantValue>false</ConstantValue>
+						</Constant>
+					</Access>
+					<Access Scope="GlobalVariable" UId="29">
+						<Symbol>
+							<Component Name="UP" />
+							<Component Name="TRIP_FLASHING" />
+						</Symbol>
+					</Access>
+					<Access Scope="GlobalVariable" UId="30">
+						<Symbol>
+							<Component Name="UP" />
+							<Component Name="ALM_FLASHING" />
+						</Symbol>
+					</Access>
+					<Access Scope="GlobalVariable" UId="31">
+						<Symbol>
+							<Component Name="MSTR_CMN_FO" />
+						</Symbol>
+					</Access>
+					<Part Name="Contact" UId="32" />
+					<Part Name="Contact" UId="33" />
+					<Part Name="O" UId="34">
+						<TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
+					</Part>
+					<Call UId="35">
+						<CallInfo Name="SEID_DigitalAlarm" BlockType="FB">
+							<Instance Scope="GlobalVariable" UId="36">
+								<Component Name="IR_TRIP" />
+							</Instance>
+							<Parameter Name="Inp_Digital" Section="Input" Type="Bool" />
+							<Parameter Name="Inp_Reset" Section="Input" Type="Bool" />
+							<Parameter Name="Cfg_EnergizedAlarm" Section="Input" Type="Bool" />
+							<Parameter Name="Cfg_Bypassed" Section="Input" Type="Bool" />
+							<Parameter Name="Cfg_DelayTime" Section="Input" Type="Time" />
+							<Parameter Name="Cfg_TripsUnit" Section="Input" Type="Bool" />
+							<Parameter Name="Cfg_ResetRequired" Section="Input" Type="Bool" />
+							<Parameter Name="PCmd_MOS" Section="Input" Type="Bool" />
+							<Parameter Name="Spare1" Section="Input" Type="Bool" />
+							<Parameter Name="Spare2" Section="Input" Type="Bool" />
+							<Parameter Name="Spare3" Section="Input" Type="DInt" />
+							<Parameter Name="Sts_Alm" Section="Output" Type="Bool" />
+							<Parameter Name="Alm_Alm" Section="Output" Type="Bool" />
+							<Parameter Name="Sts_Trip" Section="Output" Type="Bool" />
+							<Parameter Name="Alm_Trip" Section="Output" Type="Bool" />
+							<Parameter Name="MOS_Active" Section="Output" Type="Bool" />
+							<Parameter Name="FO" Section="Output" Type="Bool" />
+							<Parameter Name="Spare4" Section="Output" Type="Bool" />
+							<Parameter Name="Spare5" Section="Output" Type="Bool" />
+							<Parameter Name="Spare6" Section="Output" Type="DInt" />
+							<Parameter Name="IsaTripFlashing" Section="InOut" Type="Int" />
+							<Parameter Name="IsaAlarmFlashing" Section="InOut" Type="Int" />
+							<Parameter Name="CommonFirstOut" Section="InOut" Type="Bool" />
+							<Parameter Name="Spare7" Section="InOut" Type="Bool" />
+							<Parameter Name="Spare8" Section="InOut" Type="Bool" />
+							<Parameter Name="Spare9" Section="InOut" Type="DInt" />
+						</CallInfo>
+					</Call>
+				</Parts>
+				<Wires>
+					<Wire UId="53">
+						<Powerrail />
+						<NameCon UId="35" Name="en" />
+						<NameCon UId="32" Name="in" />
+						<NameCon UId="33" Name="in" />
+					</Wire>
+					<Wire UId="54">
+						<IdentCon UId="21" />
+						<NameCon UId="32" Name="operand" />
+					</Wire>
+					<Wire UId="55">
+						<NameCon UId="32" Name="out" />
+						<NameCon UId="34" Name="in1" />
+					</Wire>
+					<Wire UId="56">
+						<IdentCon UId="22" />
+						<NameCon UId="33" Name="operand" />
+					</Wire>
+					<Wire UId="57">
+						<NameCon UId="33" Name="out" />
+						<NameCon UId="34" Name="in2" />
+					</Wire>
+					<Wire UId="58">
+						<NameCon UId="34" Name="out" />
+						<NameCon UId="35" Name="Inp_Digital" />
+					</Wire>
+					<Wire UId="59">
+						<IdentCon UId="23" />
+						<NameCon UId="35" Name="Inp_Reset" />
+					</Wire>
+					<Wire UId="60">
+						<IdentCon UId="24" />
+						<NameCon UId="35" Name="Cfg_EnergizedAlarm" />
+					</Wire>
+					<Wire UId="61">
+						<IdentCon UId="25" />
+						<NameCon UId="35" Name="Cfg_Bypassed" />
+					</Wire>
+					<Wire UId="62">
+						<IdentCon UId="26" />
+						<NameCon UId="35" Name="Cfg_DelayTime" />
+					</Wire>
+					<Wire UId="63">
+						<IdentCon UId="27" />
+						<NameCon UId="35" Name="Cfg_TripsUnit" />
+					</Wire>
+					<Wire UId="64">
+						<IdentCon UId="28" />
+						<NameCon UId="35" Name="Cfg_ResetRequired" />
+					</Wire>
+					<Wire UId="65">
+						<OpenCon UId="37" />
+						<NameCon UId="35" Name="PCmd_MOS" />
+					</Wire>
+					<Wire UId="66">
+						<OpenCon UId="38" />
+						<NameCon UId="35" Name="Spare1" />
+					</Wire>
+					<Wire UId="67">
+						<OpenCon UId="39" />
+						<NameCon UId="35" Name="Spare2" />
+					</Wire>
+					<Wire UId="68">
+						<OpenCon UId="40" />
+						<NameCon UId="35" Name="Spare3" />
+					</Wire>
+					<Wire UId="69">
+						<IdentCon UId="29" />
+						<NameCon UId="35" Name="IsaTripFlashing" />
+					</Wire>
+					<Wire UId="70">
+						<IdentCon UId="30" />
+						<NameCon UId="35" Name="IsaAlarmFlashing" />
+					</Wire>
+					<Wire UId="71">
+						<IdentCon UId="31" />
+						<NameCon UId="35" Name="CommonFirstOut" />
+					</Wire>
+					<Wire UId="72">
+						<OpenCon UId="41" />
+						<NameCon UId="35" Name="Spare7" />
+					</Wire>
+					<Wire UId="73">
+						<OpenCon UId="42" />
+						<NameCon UId="35" Name="Spare8" />
+					</Wire>
+					<Wire UId="74">
+						<OpenCon UId="43" />
+						<NameCon UId="35" Name="Spare9" />
+					</Wire>
+					<Wire UId="75">
+						<NameCon UId="35" Name="Sts_Alm" />
+						<OpenCon UId="44" />
+					</Wire>
+					<Wire UId="76">
+						<NameCon UId="35" Name="Alm_Alm" />
+						<OpenCon UId="45" />
+					</Wire>
+					<Wire UId="77">
+						<NameCon UId="35" Name="Sts_Trip" />
+						<OpenCon UId="46" />
+					</Wire>
+					<Wire UId="78">
+						<NameCon UId="35" Name="Alm_Trip" />
+						<OpenCon UId="47" />
+					</Wire>
+					<Wire UId="79">
+						<NameCon UId="35" Name="MOS_Active" />
+						<OpenCon UId="48" />
+					</Wire>
+					<Wire UId="80">
+						<NameCon UId="35" Name="FO" />
+						<OpenCon UId="49" />
+					</Wire>
+					<Wire UId="81">
+						<NameCon UId="35" Name="Spare4" />
+						<OpenCon UId="50" />
+					</Wire>
+					<Wire UId="82">
+						<NameCon UId="35" Name="Spare5" />
+						<OpenCon UId="51" />
+					</Wire>
+					<Wire UId="83">
+						<NameCon UId="35" Name="Spare6" />
+						<OpenCon UId="52" />
+					</Wire>
+				</Wires>
+			</FlgNet>
+		</NetworkSource>
+		<ProgrammingLanguage>LAD</ProgrammingLanguage>
+	</AttributeList>
+	<ObjectList>
+		<MultilingualText ID="27" CompositionName="Comment">
+			<ObjectList>
+				<MultilingualTextItem ID="28" CompositionName="Items">
+					<AttributeList>
+						<Culture>en-US</Culture>
+						<Text />
+					</AttributeList>
+				</MultilingualTextItem>
+			</ObjectList>
+		</MultilingualText>
+		<MultilingualText ID="29" CompositionName="Title">
+			<ObjectList>
+				<MultilingualTextItem ID="2A" CompositionName="Items">
+					<AttributeList>
+						<Culture>en-US</Culture>
+						<Text>UCP HIGH INTERNAL TEMPERATURE</Text>
+					</AttributeList>
+				</MultilingualTextItem>
+			</ObjectList>
+		</MultilingualText>
+	</ObjectList>
+</SW.Blocks.CompileUnit>

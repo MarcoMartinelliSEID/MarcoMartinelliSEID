@@ -1,0 +1,75 @@
+prova
+prova
+SEID\marcom | SEID\marcom: Login
+5/13/2024 2:47:05 PM | SEID\marcom: Login
+5/13/2024 2:50:00 PM | SEID\marcom: Start Application
+5/13/2024 2:51:56 PM | SEID\marcom: Start Application
+5/13/2024 2:52:02 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:03 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:04 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:05 PM | SEID\marcom: Deselect All Items
+5/13/2024 2:52:05 PM | SEID\marcom: Deselect All Items
+5/13/2024 2:52:07 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:07 PM | SEID\marcom: Generation Completed
+5/13/2024 2:52:13 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:13 PM | SEID\marcom: Generation Completed
+5/13/2024 2:52:23 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:23 PM | SEID\marcom: Generation Completed
+5/13/2024 2:53:22 PM | SEID\marcom: Start Application
+5/13/2024 2:53:50 PM | SEID\marcom: Start Application
+5/13/2024 2:53:53 PM | SEID\marcom: Open Json Folder
+5/13/2024 3:01:42 PM | SEID\marcom: Start Application
+5/13/2024 3:01:54 PM | SEID\marcom: Open Json Folder
+5/13/2024 3:02:51 PM | SEID\marcom: Start Application
+5/13/2024 3:03:01 PM | SEID\marcom: Open Json Folder
+5/13/2024 3:26:12 PM | SEID\marcom: Start Application
+5/13/2024 3:57:57 PM | SEID\marcom: Start Application
+5/13/2024 3:58:02 PM | SEID\marcom: Open Json Folder
+5/13/2024 4:05:49 PM | SEID\marcom: Start Application
+5/13/2024 4:05:54 PM | SEID\marcom: Open Json Folder
+13/05/2024 16:20:41 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:20:55 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:21:46 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:21:50 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:24:44 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:24:51 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:25:35 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:25:37 | DESKTOP-M891NQK\Win10: Select All Items
+13/05/2024 16:25:46 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:26:49 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:27:08 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:27:10 | DESKTOP-M891NQK\Win10: Select All Items
+13/05/2024 16:27:25 | DESKTOP-M891NQK\Win10: Start Generation
+13/05/2024 16:27:38 | DESKTOP-M891NQK\Win10: Generation Completed
+13/05/2024 16:28:10 | DESKTOP-M891NQK\Win10: Start Generation
+13/05/2024 16:28:21 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:30:00 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:30:23 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:30:27 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:30:51 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:30:55 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:31:22 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:31:27 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:32:07 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:32:10 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:32:20 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:32:24 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:32:38 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:32:42 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:33:02 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:33:05 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:34:19 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:34:23 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:34:55 | DESKTOP-M891NQK\Win10: Start Application
+13/05/2024 16:35:17 | DESKTOP-M891NQK\Win10: Start Generation
+13/05/2024 16:35:31 | DESKTOP-M891NQK\Win10: Generation Completed
+13/05/2024 16:35:35 | DESKTOP-M891NQK\Win10: Open Json Folder
+13/05/2024 16:36:17 | DESKTOP-M891NQK\Win10: Start Generation
+5/13/2024 5:23:04 PM | SEID\marcom: Start Application
+5/13/2024 5:53:57 PM | SEID\marcom: Start Application
+5/13/2024 5:54:01 PM | SEID\marcom: Open Json Folder
+5/13/2024 5:54:02 PM | SEID\marcom: Select All Items
+5/13/2024 5:54:29 PM | SEID\marcom: Start Application
+5/14/2024 11:56:43 AM | SEID\marcom: Start Application
+5/15/2024 5:41:56 PM | SEID\marcom: Start Application
+6/28/2024 2:19:23 PM | SEID\marcom: Start Application

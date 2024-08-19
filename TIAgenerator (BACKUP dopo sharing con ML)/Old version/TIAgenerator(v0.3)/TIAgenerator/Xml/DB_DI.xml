@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2023-03-08T16:44:23.1874801Z</Created>
+    <ExportSetting>None</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced / Unified PC</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="KF_414" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">DCS EMERGENCY SHUTDOWN PERSONNEL</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_415" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">REMOTE FAST STOP COMPRESSOR</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="TBD" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">TRIP FROM ESD</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_202" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">EMERGENCY RELAY FEEDBACK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HS_330" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">EMERGENCY STOP PUSHBUTTON FROM UCP</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_403" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">CONTROL VIA HW INTERFACE</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_405" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">REMOTE START COMPRESSOR</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_404" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">REMOTE STOP COMPRESSOR</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_406" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">REMOTE PRODUCTION</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="KF_407" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">REMOTE RESET</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_100" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">MAIN MOTOR RUNNING FEEDBACK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_101" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">MAIN MOTOR FAULT FEEDBACK</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_102" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">EMERGENCY STOP FROM MCC</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_103" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">HIGH TEMPERATURE FROM MCC</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="XS_104" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">MAIN CIRCUIT BREAKER FAULT</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="TSH_001" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">UCP INTERNAL HIGH TEMPERATURE</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="PSA_001" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">UCP 24VDC POWER SUPPLY FAULT </MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HS_320" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">LOCAL/REMOTE SELECTOR</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HS_340" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">COMPRESSOR START BUTTON</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HS_350" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">COMPRESSOR STOP BUTTON</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="HS_360" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">ALARM RESET</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>DI</Name>
+      <Number>12</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

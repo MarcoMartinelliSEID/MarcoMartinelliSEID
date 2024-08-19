@@ -1,0 +1,24 @@
+prova
+prova
+SEID\marcom | SEID\marcom: Login
+5/13/2024 2:47:05 PM | SEID\marcom: Login
+5/13/2024 2:50:00 PM | SEID\marcom: Start Application
+5/13/2024 2:51:56 PM | SEID\marcom: Start Application
+5/13/2024 2:52:02 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:03 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:04 PM | SEID\marcom: Select All Items
+5/13/2024 2:52:05 PM | SEID\marcom: Deselect All Items
+5/13/2024 2:52:05 PM | SEID\marcom: Deselect All Items
+5/13/2024 2:52:07 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:07 PM | SEID\marcom: Generation Completed
+5/13/2024 2:52:13 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:13 PM | SEID\marcom: Generation Completed
+5/13/2024 2:52:23 PM | SEID\marcom: Start Generation
+5/13/2024 2:52:23 PM | SEID\marcom: Generation Completed
+5/13/2024 2:53:22 PM | SEID\marcom: Start Application
+5/13/2024 2:53:50 PM | SEID\marcom: Start Application
+5/13/2024 2:53:53 PM | SEID\marcom: Open Json Folder
+5/13/2024 3:01:42 PM | SEID\marcom: Start Application
+5/13/2024 3:01:54 PM | SEID\marcom: Open Json Folder
+5/13/2024 3:02:51 PM | SEID\marcom: Start Application
+5/13/2024 3:03:01 PM | SEID\marcom: Open Json Folder

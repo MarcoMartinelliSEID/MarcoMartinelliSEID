@@ -1,0 +1,23 @@
+﻿<Member Name="TAG" Datatype="Struct" Remanence="Retain">
+	<Comment>
+		<MultiLanguageText Lang="en-US">DESCRIPTION</MultiLanguageText>
+	</Comment>
+	<Member Name="RANGE_L" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+	<Member Name="RANGE_H" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+	<Member Name="SP_LL" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+	<Member Name="SP_L" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+	<Member Name="SP_H" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+	<Member Name="SP_HH" Datatype="Real">
+		<StartValue>0.0</StartValue>
+	</Member>
+</Member>

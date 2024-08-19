@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2023-04-06T14:59:51.4519566Z</Created>
+    <ExportSetting>None</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced / Unified PC</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="PT_1" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">MAIN RING SYSTEM PRESSURE</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>100.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_1" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">MAIN RING FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>200.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_2" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">INGERSOL COMPRESSOR OUTLET FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>300.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_3" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">HANWA COMPRESSOR 1 OUTLET FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>400.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_4" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">HANWA COMPRESSOR 2 OUTLET FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>500.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_5" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">HIGH PRESSURE RING FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>600.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+    <Member Name="FT_6" Datatype="Struct" Remanence="Retain">
+      <Comment>
+        <MultiLanguageText Lang="en-US">HIGH PRESSURE RING FLOW</MultiLanguageText>
+      </Comment>
+      <Member Name="RANGE_L" Datatype="Real">
+        <StartValue>0.0</StartValue>
+      </Member>
+      <Member Name="RANGE_H" Datatype="Real">
+        <StartValue>700.0</StartValue>
+      </Member>
+      <Member Name="SP_LL" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_L" Datatype="Real">
+        <StartValue>-1000.0</StartValue>
+      </Member>
+      <Member Name="SP_H" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+      <Member Name="SP_HH" Datatype="Real">
+        <StartValue>1000.0</StartValue>
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>SETTINGS</Name>
+      <Number>25</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

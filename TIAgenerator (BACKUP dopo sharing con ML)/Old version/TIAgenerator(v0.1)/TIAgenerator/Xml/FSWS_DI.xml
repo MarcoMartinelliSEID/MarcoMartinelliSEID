@@ -1,0 +1,86 @@
+﻿    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>Commento interno principale FC</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+		<SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+			<AttributeList>
+				<NetworkSource>
+					<FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+						<Parts>
+							<Access Scope="GlobalVariable" UId="21">
+								<Symbol>
+									<Component Name="TT-501" />
+								</Symbol>
+							</Access>
+							<Access Scope="GlobalVariable" UId="22">
+								<Symbol>
+									<Component Name="DI" />
+									<Component Name="TS-102" />
+								</Symbol>
+							</Access>
+							<Part Name="Contact" UId="23" />
+							<Part Name="Coil" UId="24" />
+						</Parts>
+						<Wires>
+							<Wire UId="25">
+								<Powerrail />
+								<NameCon UId="23" Name="in" />
+							</Wire>
+							<Wire UId="26">
+								<IdentCon UId="21" />
+								<NameCon UId="23" Name="operand" />
+							</Wire>
+							<Wire UId="27">
+								<NameCon UId="23" Name="out" />
+								<NameCon UId="24" Name="in" />
+							</Wire>
+							<Wire UId="28">
+								<IdentCon UId="22" />
+								<NameCon UId="24" Name="operand" />
+							</Wire>
+						</Wires>
+					</FlgNet>
+				</NetworkSource>
+				<ProgrammingLanguage>LAD</ProgrammingLanguage>
+			</AttributeList>
+			<ObjectList>
+				<MultilingualText ID="9" CompositionName="Comment">
+					<ObjectList>
+						<MultilingualTextItem ID="A" CompositionName="Items">
+							<AttributeList>
+								<Culture>en-US</Culture>
+								<Text />
+							</AttributeList>
+						</MultilingualTextItem>
+					</ObjectList>
+				</MultilingualText>
+				<MultilingualText ID="B" CompositionName="Title">
+					<ObjectList>
+						<MultilingualTextItem ID="C" CompositionName="Items">
+							<AttributeList>
+								<Culture>en-US</Culture>
+								<Text>TEMPERATURE SWITCH 2</Text>
+							</AttributeList>
+						</MultilingualTextItem>
+					</ObjectList>
+				</MultilingualText>
+			</ObjectList>
+		</SW.Blocks.CompileUnit>
+      <MultilingualText ID="17" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="18" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>Titolo Interno FC</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>

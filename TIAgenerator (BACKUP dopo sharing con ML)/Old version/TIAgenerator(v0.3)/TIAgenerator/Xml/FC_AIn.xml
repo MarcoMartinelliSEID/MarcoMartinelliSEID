@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2023-05-04T15:49:35.2103582Z</Created>
+    <ExportSetting>None</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced / Unified PC</DisplayName>
+        <DisplayVersion>V17 Update 4</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.FC ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+  <Section Name="Return">
+    <Member Name="Ret_Val" Datatype="Void" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>FC_AIn</Name>
+      <Number>1</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>Analog Input
+</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="BPD206_FLD" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="RANGE_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="RANGE_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="26">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>29376</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="27">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>691</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="29">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="30">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="33">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="34">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="35">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="TypedConstant" UId="36">
+      <Constant>
+        <ConstantValue>T#0S</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="37">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="SP_HH" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="39">
+      <Constant>
+        <ConstantValue>T#1S</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="40">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="41">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="42">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="43">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="44">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="45">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="SP_H" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="46">
+      <Constant>
+        <ConstantValue>T#1S</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="47">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="48">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="49">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="50">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="51">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="SP_L" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="52">
+      <Constant>
+        <ConstantValue>T#1S</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="53">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="54">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="55">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="56">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="57">
+      <Symbol>
+        <Component Name="SETTINGS" />
+        <Component Name="BGP168" />
+        <Component Name="SP_LL" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="58">
+      <Constant>
+        <ConstantValue>T#1S</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="59">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="60">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="61">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="62">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="63">
+      <Symbol>
+        <Component Name="RESET" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="64">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>false</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="65">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="66">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>0.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="67">
+      <Symbol>
+        <Component Name="CMN_FO" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="68">
+      <Symbol>
+        <Component Name="UP" />
+        <Component Name="ALM_FLASHING" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="69">
+      <Symbol>
+        <Component Name="UP" />
+        <Component Name="TRIP_FLASHING" />
+      </Symbol>
+    </Access>
+    <Call UId="70">
+      <CallInfo Name="SEID_AIn" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="71">
+          <Component Name="BGP168" />
+        </Instance>
+        <Parameter Name="Inp_PV" Section="Input" Type="Int" />
+        <Parameter Name="Cfg_PVEUMin" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_PVEUMax" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_InpRawMin" Section="Input" Type="Int" />
+        <Parameter Name="Cfg_InpRawMax" Section="Input" Type="Int" />
+        <Parameter Name="Cfg_FailRawHiLim" Section="Input" Type="Int" />
+        <Parameter Name="Cfg_FailRawLoLim" Section="Input" Type="Int" />
+        <Parameter Name="Inp_PVBad" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUsePVEUMax" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUsePVEUMin" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUseValSub" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_ValSub" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_FailDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_HasHiHiAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_HiHiLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiHiDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_HiHiDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiHiBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiHiTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiHiResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasHiAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_HiLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_HiDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasLoAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_LoLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_LoDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasLoLoAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_LoLoLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoLoDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_LoLoDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoLoBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoLoTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoLoResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_Reset" Section="Input" Type="Bool" />
+        <Parameter Name="PCmd_MOS" Section="Input" Type="Bool" />
+        <Parameter Name="SpareIn1" Section="Input" Type="Real" />
+        <Parameter Name="SpareIn2" Section="Input" Type="Real" />
+        <Parameter Name="Val_Out" Section="Output" Type="Real" />
+        <Parameter Name="Alm_Fail" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_HiHi" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_Hi" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_Lo" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_LoLo" Section="Output" Type="Bool" />
+        <Parameter Name="Fo_Fail" Section="Output" Type="Bool" />
+        <Parameter Name="Fo_HiHi" Section="Output" Type="Bool" />
+        <Parameter Name="Fo_LoLo" Section="Output" Type="Bool" />
+        <Parameter Name="SpareOut1" Section="Output" Type="Real" />
+        <Parameter Name="SpareOut2" Section="Output" Type="Real" />
+        <Parameter Name="SpareOut4" Section="Output" Type="Int" />
+        <Parameter Name="CommonFirstOut" Section="InOut" Type="Bool" />
+        <Parameter Name="IsaAlarmFlashing" Section="InOut" Type="Int" />
+        <Parameter Name="IsaTripFlashing" Section="InOut" Type="Int" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="84">
+      <Powerrail />
+      <NameCon UId="70" Name="en" />
+    </Wire>
+    <Wire UId="85">
+      <IdentCon UId="21" />
+      <NameCon UId="70" Name="Inp_PV" />
+    </Wire>
+    <Wire UId="86">
+      <IdentCon UId="22" />
+      <NameCon UId="70" Name="Cfg_PVEUMin" />
+    </Wire>
+    <Wire UId="87">
+      <IdentCon UId="23" />
+      <NameCon UId="70" Name="Cfg_PVEUMax" />
+    </Wire>
+    <Wire UId="88">
+      <IdentCon UId="24" />
+      <NameCon UId="70" Name="Cfg_InpRawMin" />
+    </Wire>
+    <Wire UId="89">
+      <IdentCon UId="25" />
+      <NameCon UId="70" Name="Cfg_InpRawMax" />
+    </Wire>
+    <Wire UId="90">
+      <IdentCon UId="26" />
+      <NameCon UId="70" Name="Cfg_FailRawHiLim" />
+    </Wire>
+    <Wire UId="91">
+      <IdentCon UId="27" />
+      <NameCon UId="70" Name="Cfg_FailRawLoLim" />
+    </Wire>
+    <Wire UId="92">
+      <IdentCon UId="28" />
+      <NameCon UId="70" Name="Inp_PVBad" />
+    </Wire>
+    <Wire UId="93">
+      <IdentCon UId="29" />
+      <NameCon UId="70" Name="Cfg_FailBypass" />
+    </Wire>
+    <Wire UId="94">
+      <IdentCon UId="30" />
+      <NameCon UId="70" Name="Cfg_FailTripsUnit" />
+    </Wire>
+    <Wire UId="95">
+      <IdentCon UId="31" />
+      <NameCon UId="70" Name="Cfg_FailResetRequired" />
+    </Wire>
+    <Wire UId="96">
+      <IdentCon UId="32" />
+      <NameCon UId="70" Name="Cfg_InFailUsePVEUMax" />
+    </Wire>
+    <Wire UId="97">
+      <IdentCon UId="33" />
+      <NameCon UId="70" Name="Cfg_InFailUsePVEUMin" />
+    </Wire>
+    <Wire UId="98">
+      <IdentCon UId="34" />
+      <NameCon UId="70" Name="Cfg_InFailUseValSub" />
+    </Wire>
+    <Wire UId="99">
+      <IdentCon UId="35" />
+      <NameCon UId="70" Name="Cfg_ValSub" />
+    </Wire>
+    <Wire UId="100">
+      <IdentCon UId="36" />
+      <NameCon UId="70" Name="Cfg_FailDelay" />
+    </Wire>
+    <Wire UId="101">
+      <IdentCon UId="37" />
+      <NameCon UId="70" Name="Cfg_HasHiHiAlm" />
+    </Wire>
+    <Wire UId="102">
+      <IdentCon UId="38" />
+      <NameCon UId="70" Name="Oset_HiHiLim" />
+    </Wire>
+    <Wire UId="103">
+      <IdentCon UId="39" />
+      <NameCon UId="70" Name="Cfg_HiHiDelay" />
+    </Wire>
+    <Wire UId="104">
+      <IdentCon UId="40" />
+      <NameCon UId="70" Name="Cfg_HiHiDB" />
+    </Wire>
+    <Wire UId="105">
+      <IdentCon UId="41" />
+      <NameCon UId="70" Name="Cfg_HiHiBypass" />
+    </Wire>
+    <Wire UId="106">
+      <IdentCon UId="42" />
+      <NameCon UId="70" Name="Cfg_HiHiTripsUnit" />
+    </Wire>
+    <Wire UId="107">
+      <IdentCon UId="43" />
+      <NameCon UId="70" Name="Cfg_HiHiResetRequired" />
+    </Wire>
+    <Wire UId="108">
+      <IdentCon UId="44" />
+      <NameCon UId="70" Name="Cfg_HasHiAlm" />
+    </Wire>
+    <Wire UId="109">
+      <IdentCon UId="45" />
+      <NameCon UId="70" Name="Oset_HiLim" />
+    </Wire>
+    <Wire UId="110">
+      <IdentCon UId="46" />
+      <NameCon UId="70" Name="Cfg_HiDelay" />
+    </Wire>
+    <Wire UId="111">
+      <IdentCon UId="47" />
+      <NameCon UId="70" Name="Cfg_HiDB" />
+    </Wire>
+    <Wire UId="112">
+      <IdentCon UId="48" />
+      <NameCon UId="70" Name="Cfg_HiBypass" />
+    </Wire>
+    <Wire UId="113">
+      <IdentCon UId="49" />
+      <NameCon UId="70" Name="Cfg_HiResetRequired" />
+    </Wire>
+    <Wire UId="114">
+      <IdentCon UId="50" />
+      <NameCon UId="70" Name="Cfg_HasLoAlm" />
+    </Wire>
+    <Wire UId="115">
+      <IdentCon UId="51" />
+      <NameCon UId="70" Name="Oset_LoLim" />
+    </Wire>
+    <Wire UId="116">
+      <IdentCon UId="52" />
+      <NameCon UId="70" Name="Cfg_LoDelay" />
+    </Wire>
+    <Wire UId="117">
+      <IdentCon UId="53" />
+      <NameCon UId="70" Name="Cfg_LoDB" />
+    </Wire>
+    <Wire UId="118">
+      <IdentCon UId="54" />
+      <NameCon UId="70" Name="Cfg_LoBypass" />
+    </Wire>
+    <Wire UId="119">
+      <IdentCon UId="55" />
+      <NameCon UId="70" Name="Cfg_LoResetRequired" />
+    </Wire>
+    <Wire UId="120">
+      <IdentCon UId="56" />
+      <NameCon UId="70" Name="Cfg_HasLoLoAlm" />
+    </Wire>
+    <Wire UId="121">
+      <IdentCon UId="57" />
+      <NameCon UId="70" Name="Oset_LoLoLim" />
+    </Wire>
+    <Wire UId="122">
+      <IdentCon UId="58" />
+      <NameCon UId="70" Name="Cfg_LoLoDelay" />
+    </Wire>
+    <Wire UId="123">
+      <IdentCon UId="59" />
+      <NameCon UId="70" Name="Cfg_LoLoDB" />
+    </Wire>
+    <Wire UId="124">
+      <IdentCon UId="60" />
+      <NameCon UId="70" Name="Cfg_LoLoBypass" />
+    </Wire>
+    <Wire UId="125">
+      <IdentCon UId="61" />
+      <NameCon UId="70" Name="Cfg_LoLoTripsUnit" />
+    </Wire>
+    <Wire UId="126">
+      <IdentCon UId="62" />
+      <NameCon UId="70" Name="Cfg_LoLoResetRequired" />
+    </Wire>
+    <Wire UId="127">
+      <IdentCon UId="63" />
+      <NameCon UId="70" Name="Inp_Reset" />
+    </Wire>
+    <Wire UId="128">
+      <IdentCon UId="64" />
+      <NameCon UId="70" Name="PCmd_MOS" />
+    </Wire>
+    <Wire UId="129">
+      <IdentCon UId="65" />
+      <NameCon UId="70" Name="SpareIn1" />
+    </Wire>
+    <Wire UId="130">
+      <IdentCon UId="66" />
+      <NameCon UId="70" Name="SpareIn2" />
+    </Wire>
+    <Wire UId="131">
+      <IdentCon UId="67" />
+      <NameCon UId="70" Name="CommonFirstOut" />
+    </Wire>
+    <Wire UId="132">
+      <IdentCon UId="68" />
+      <NameCon UId="70" Name="IsaAlarmFlashing" />
+    </Wire>
+    <Wire UId="133">
+      <IdentCon UId="69" />
+      <NameCon UId="70" Name="IsaTripFlashing" />
+    </Wire>
+    <Wire UId="134">
+      <NameCon UId="70" Name="Val_Out" />
+      <OpenCon UId="72" />
+    </Wire>
+    <Wire UId="135">
+      <NameCon UId="70" Name="Alm_Fail" />
+      <OpenCon UId="73" />
+    </Wire>
+    <Wire UId="136">
+      <NameCon UId="70" Name="Alm_HiHi" />
+      <OpenCon UId="74" />
+    </Wire>
+    <Wire UId="137">
+      <NameCon UId="70" Name="Alm_Hi" />
+      <OpenCon UId="75" />
+    </Wire>
+    <Wire UId="138">
+      <NameCon UId="70" Name="Alm_Lo" />
+      <OpenCon UId="76" />
+    </Wire>
+    <Wire UId="139">
+      <NameCon UId="70" Name="Alm_LoLo" />
+      <OpenCon UId="77" />
+    </Wire>
+    <Wire UId="140">
+      <NameCon UId="70" Name="Fo_Fail" />
+      <OpenCon UId="78" />
+    </Wire>
+    <Wire UId="141">
+      <NameCon UId="70" Name="Fo_HiHi" />
+      <OpenCon UId="79" />
+    </Wire>
+    <Wire UId="142">
+      <NameCon UId="70" Name="Fo_LoLo" />
+      <OpenCon UId="80" />
+    </Wire>
+    <Wire UId="143">
+      <NameCon UId="70" Name="SpareOut1" />
+      <OpenCon UId="81" />
+    </Wire>
+    <Wire UId="144">
+      <NameCon UId="70" Name="SpareOut2" />
+      <OpenCon UId="82" />
+    </Wire>
+    <Wire UId="145">
+      <NameCon UId="70" Name="SpareOut4" />
+      <OpenCon UId="83" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>DESCRIPTION</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Call UId="21">
+      <CallInfo Name="SEID_AIn2oo3" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="22">
+          <Component Name="BPG105" />
+        </Instance>
+        <Parameter Name="Inp_ValA" Section="Input" Type="Real" />
+        <Parameter Name="Inp_ValB" Section="Input" Type="Real" />
+        <Parameter Name="Inp_ValC" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_PVEUMin" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_PVEUMax" Section="Input" Type="Real" />
+        <Parameter Name="Inp_FailAlmA" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_FailAlmB" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_FailAlmC" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_FailResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUsePVEUMax" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUsePVEUMin" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_InFailUseValSub" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_ValSub" Section="Input" Type="Real" />
+        <Parameter Name="Inp_HiHiAlmA" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_HiHiAlmB" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_HiHiAlmC" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasHiHiAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_HiHiLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiHiDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_HiHiDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiHiBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiHiTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiHiResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_HiAlmA" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_HiAlmB" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_HiAlmC" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasHiAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_HiLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_HiDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_HiBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HiResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoAlmA" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoAlmB" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoAlmC" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasLoAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_LoLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_LoDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoLoAlmA" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoLoAlmB" Section="Input" Type="Bool" />
+        <Parameter Name="Inp_LoLoAlmC" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_HasLoLoAlm" Section="Input" Type="Bool" />
+        <Parameter Name="Oset_LoLoLim" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoLoDelay" Section="Input" Type="Time" />
+        <Parameter Name="Cfg_LoLoDB" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_LoLoBypass" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoLoTripsUnit" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_LoLoResetRequired" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_CheckPercDev" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_CheckEUDev" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_EUDeviation" Section="Input" Type="Real" />
+        <Parameter Name="Cfg_PercDeviation" Section="Input" Type="Real" />
+        <Parameter Name="Inp_Reset" Section="Input" Type="Bool" />
+        <Parameter Name="PCmd_MOS" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_UseDigitalAlarms" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_UseMedianValue" Section="Input" Type="Bool" />
+        <Parameter Name="Cfg_if1FailUse2oo2" Section="Input" Type="Bool" />
+        <Parameter Name="SpareIn1" Section="Input" Type="Real" />
+        <Parameter Name="SpareIn2" Section="Input" Type="Real" />
+        <Parameter Name="Val_Out" Section="Output" Type="Real" />
+        <Parameter Name="Alm_Fail" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_HiHi" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_Hi" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_Lo" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_LoLo" Section="Output" Type="Bool" />
+        <Parameter Name="FO_Fail" Section="Output" Type="Bool" />
+        <Parameter Name="FO_HiHi" Section="Output" Type="Bool" />
+        <Parameter Name="FO_LoLo" Section="Output" Type="Bool" />
+        <Parameter Name="Alm_Deviation" Section="Output" Type="Bool" />
+        <Parameter Name="SpareOut1" Section="Output" Type="Int" />
+        <Parameter Name="CommonFirstOut" Section="InOut" Type="Bool" />
+        <Parameter Name="IsaAlarmFlashing" Section="InOut" Type="Int" />
+        <Parameter Name="IsaTripFlashing" Section="InOut" Type="Int" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="101">
+      <Powerrail />
+      <NameCon UId="21" Name="en" />
+    </Wire>
+    <Wire UId="102">
+      <OpenCon UId="23" />
+      <NameCon UId="21" Name="Inp_ValA" />
+    </Wire>
+    <Wire UId="103">
+      <OpenCon UId="24" />
+      <NameCon UId="21" Name="Inp_ValB" />
+    </Wire>
+    <Wire UId="104">
+      <OpenCon UId="25" />
+      <NameCon UId="21" Name="Inp_ValC" />
+    </Wire>
+    <Wire UId="105">
+      <OpenCon UId="26" />
+      <NameCon UId="21" Name="Cfg_PVEUMin" />
+    </Wire>
+    <Wire UId="106">
+      <OpenCon UId="27" />
+      <NameCon UId="21" Name="Cfg_PVEUMax" />
+    </Wire>
+    <Wire UId="107">
+      <OpenCon UId="28" />
+      <NameCon UId="21" Name="Inp_FailAlmA" />
+    </Wire>
+    <Wire UId="108">
+      <OpenCon UId="29" />
+      <NameCon UId="21" Name="Inp_FailAlmB" />
+    </Wire>
+    <Wire UId="109">
+      <OpenCon UId="30" />
+      <NameCon UId="21" Name="Inp_FailAlmC" />
+    </Wire>
+    <Wire UId="110">
+      <OpenCon UId="31" />
+      <NameCon UId="21" Name="Cfg_FailBypass" />
+    </Wire>
+    <Wire UId="111">
+      <OpenCon UId="32" />
+      <NameCon UId="21" Name="Cfg_FailTripsUnit" />
+    </Wire>
+    <Wire UId="112">
+      <OpenCon UId="33" />
+      <NameCon UId="21" Name="Cfg_FailResetRequired" />
+    </Wire>
+    <Wire UId="113">
+      <OpenCon UId="34" />
+      <NameCon UId="21" Name="Cfg_InFailUsePVEUMax" />
+    </Wire>
+    <Wire UId="114">
+      <OpenCon UId="35" />
+      <NameCon UId="21" Name="Cfg_InFailUsePVEUMin" />
+    </Wire>
+    <Wire UId="115">
+      <OpenCon UId="36" />
+      <NameCon UId="21" Name="Cfg_InFailUseValSub" />
+    </Wire>
+    <Wire UId="116">
+      <OpenCon UId="37" />
+      <NameCon UId="21" Name="Cfg_ValSub" />
+    </Wire>
+    <Wire UId="117">
+      <OpenCon UId="38" />
+      <NameCon UId="21" Name="Inp_HiHiAlmA" />
+    </Wire>
+    <Wire UId="118">
+      <OpenCon UId="39" />
+      <NameCon UId="21" Name="Inp_HiHiAlmB" />
+    </Wire>
+    <Wire UId="119">
+      <OpenCon UId="40" />
+      <NameCon UId="21" Name="Inp_HiHiAlmC" />
+    </Wire>
+    <Wire UId="120">
+      <OpenCon UId="41" />
+      <NameCon UId="21" Name="Cfg_HasHiHiAlm" />
+    </Wire>
+    <Wire UId="121">
+      <OpenCon UId="42" />
+      <NameCon UId="21" Name="Oset_HiHiLim" />
+    </Wire>
+    <Wire UId="122">
+      <OpenCon UId="43" />
+      <NameCon UId="21" Name="Cfg_HiHiDelay" />
+    </Wire>
+    <Wire UId="123">
+      <OpenCon UId="44" />
+      <NameCon UId="21" Name="Cfg_HiHiDB" />
+    </Wire>
+    <Wire UId="124">
+      <OpenCon UId="45" />
+      <NameCon UId="21" Name="Cfg_HiHiBypass" />
+    </Wire>
+    <Wire UId="125">
+      <OpenCon UId="46" />
+      <NameCon UId="21" Name="Cfg_HiHiTripsUnit" />
+    </Wire>
+    <Wire UId="126">
+      <OpenCon UId="47" />
+      <NameCon UId="21" Name="Cfg_HiHiResetRequired" />
+    </Wire>
+    <Wire UId="127">
+      <OpenCon UId="48" />
+      <NameCon UId="21" Name="Inp_HiAlmA" />
+    </Wire>
+    <Wire UId="128">
+      <OpenCon UId="49" />
+      <NameCon UId="21" Name="Inp_HiAlmB" />
+    </Wire>
+    <Wire UId="129">
+      <OpenCon UId="50" />
+      <NameCon UId="21" Name="Inp_HiAlmC" />
+    </Wire>
+    <Wire UId="130">
+      <OpenCon UId="51" />
+      <NameCon UId="21" Name="Cfg_HasHiAlm" />
+    </Wire>
+    <Wire UId="131">
+      <OpenCon UId="52" />
+      <NameCon UId="21" Name="Oset_HiLim" />
+    </Wire>
+    <Wire UId="132">
+      <OpenCon UId="53" />
+      <NameCon UId="21" Name="Cfg_HiDelay" />
+    </Wire>
+    <Wire UId="133">
+      <OpenCon UId="54" />
+      <NameCon UId="21" Name="Cfg_HiDB" />
+    </Wire>
+    <Wire UId="134">
+      <OpenCon UId="55" />
+      <NameCon UId="21" Name="Cfg_HiBypass" />
+    </Wire>
+    <Wire UId="135">
+      <OpenCon UId="56" />
+      <NameCon UId="21" Name="Cfg_HiResetRequired" />
+    </Wire>
+    <Wire UId="136">
+      <OpenCon UId="57" />
+      <NameCon UId="21" Name="Inp_LoAlmA" />
+    </Wire>
+    <Wire UId="137">
+      <OpenCon UId="58" />
+      <NameCon UId="21" Name="Inp_LoAlmB" />
+    </Wire>
+    <Wire UId="138">
+      <OpenCon UId="59" />
+      <NameCon UId="21" Name="Inp_LoAlmC" />
+    </Wire>
+    <Wire UId="139">
+      <OpenCon UId="60" />
+      <NameCon UId="21" Name="Cfg_HasLoAlm" />
+    </Wire>
+    <Wire UId="140">
+      <OpenCon UId="61" />
+      <NameCon UId="21" Name="Oset_LoLim" />
+    </Wire>
+    <Wire UId="141">
+      <OpenCon UId="62" />
+      <NameCon UId="21" Name="Cfg_LoDelay" />
+    </Wire>
+    <Wire UId="142">
+      <OpenCon UId="63" />
+      <NameCon UId="21" Name="Cfg_LoDB" />
+    </Wire>
+    <Wire UId="143">
+      <OpenCon UId="64" />
+      <NameCon UId="21" Name="Cfg_LoBypass" />
+    </Wire>
+    <Wire UId="144">
+      <OpenCon UId="65" />
+      <NameCon UId="21" Name="Cfg_LoResetRequired" />
+    </Wire>
+    <Wire UId="145">
+      <OpenCon UId="66" />
+      <NameCon UId="21" Name="Inp_LoLoAlmA" />
+    </Wire>
+    <Wire UId="146">
+      <OpenCon UId="67" />
+      <NameCon UId="21" Name="Inp_LoLoAlmB" />
+    </Wire>
+    <Wire UId="147">
+      <OpenCon UId="68" />
+      <NameCon UId="21" Name="Inp_LoLoAlmC" />
+    </Wire>
+    <Wire UId="148">
+      <OpenCon UId="69" />
+      <NameCon UId="21" Name="Cfg_HasLoLoAlm" />
+    </Wire>
+    <Wire UId="149">
+      <OpenCon UId="70" />
+      <NameCon UId="21" Name="Oset_LoLoLim" />
+    </Wire>
+    <Wire UId="150">
+      <OpenCon UId="71" />
+      <NameCon UId="21" Name="Cfg_LoLoDelay" />
+    </Wire>
+    <Wire UId="151">
+      <OpenCon UId="72" />
+      <NameCon UId="21" Name="Cfg_LoLoDB" />
+    </Wire>
+    <Wire UId="152">
+      <OpenCon UId="73" />
+      <NameCon UId="21" Name="Cfg_LoLoBypass" />
+    </Wire>
+    <Wire UId="153">
+      <OpenCon UId="74" />
+      <NameCon UId="21" Name="Cfg_LoLoTripsUnit" />
+    </Wire>
+    <Wire UId="154">
+      <OpenCon UId="75" />
+      <NameCon UId="21" Name="Cfg_LoLoResetRequired" />
+    </Wire>
+    <Wire UId="155">
+      <OpenCon UId="76" />
+      <NameCon UId="21" Name="Cfg_CheckPercDev" />
+    </Wire>
+    <Wire UId="156">
+      <OpenCon UId="77" />
+      <NameCon UId="21" Name="Cfg_CheckEUDev" />
+    </Wire>
+    <Wire UId="157">
+      <OpenCon UId="78" />
+      <NameCon UId="21" Name="Cfg_EUDeviation" />
+    </Wire>
+    <Wire UId="158">
+      <OpenCon UId="79" />
+      <NameCon UId="21" Name="Cfg_PercDeviation" />
+    </Wire>
+    <Wire UId="159">
+      <OpenCon UId="80" />
+      <NameCon UId="21" Name="Inp_Reset" />
+    </Wire>
+    <Wire UId="160">
+      <OpenCon UId="81" />
+      <NameCon UId="21" Name="PCmd_MOS" />
+    </Wire>
+    <Wire UId="161">
+      <OpenCon UId="82" />
+      <NameCon UId="21" Name="Cfg_UseDigitalAlarms" />
+    </Wire>
+    <Wire UId="162">
+      <OpenCon UId="83" />
+      <NameCon UId="21" Name="Cfg_UseMedianValue" />
+    </Wire>
+    <Wire UId="163">
+      <OpenCon UId="84" />
+      <NameCon UId="21" Name="Cfg_if1FailUse2oo2" />
+    </Wire>
+    <Wire UId="164">
+      <OpenCon UId="85" />
+      <NameCon UId="21" Name="SpareIn1" />
+    </Wire>
+    <Wire UId="165">
+      <OpenCon UId="86" />
+      <NameCon UId="21" Name="SpareIn2" />
+    </Wire>
+    <Wire UId="166">
+      <OpenCon UId="87" />
+      <NameCon UId="21" Name="CommonFirstOut" />
+    </Wire>
+    <Wire UId="167">
+      <OpenCon UId="88" />
+      <NameCon UId="21" Name="IsaAlarmFlashing" />
+    </Wire>
+    <Wire UId="168">
+      <OpenCon UId="89" />
+      <NameCon UId="21" Name="IsaTripFlashing" />
+    </Wire>
+    <Wire UId="169">
+      <NameCon UId="21" Name="Val_Out" />
+      <OpenCon UId="90" />
+    </Wire>
+    <Wire UId="170">
+      <NameCon UId="21" Name="Alm_Fail" />
+      <OpenCon UId="91" />
+    </Wire>
+    <Wire UId="171">
+      <NameCon UId="21" Name="Alm_HiHi" />
+      <OpenCon UId="92" />
+    </Wire>
+    <Wire UId="172">
+      <NameCon UId="21" Name="Alm_Hi" />
+      <OpenCon UId="93" />
+    </Wire>
+    <Wire UId="173">
+      <NameCon UId="21" Name="Alm_Lo" />
+      <OpenCon UId="94" />
+    </Wire>
+    <Wire UId="174">
+      <NameCon UId="21" Name="Alm_LoLo" />
+      <OpenCon UId="95" />
+    </Wire>
+    <Wire UId="175">
+      <NameCon UId="21" Name="FO_Fail" />
+      <OpenCon UId="96" />
+    </Wire>
+    <Wire UId="176">
+      <NameCon UId="21" Name="FO_HiHi" />
+      <OpenCon UId="97" />
+    </Wire>
+    <Wire UId="177">
+      <NameCon UId="21" Name="FO_LoLo" />
+      <OpenCon UId="98" />
+    </Wire>
+    <Wire UId="178">
+      <NameCon UId="21" Name="Alm_Deviation" />
+      <OpenCon UId="99" />
+    </Wire>
+    <Wire UId="179">
+      <NameCon UId="21" Name="SpareOut1" />
+      <OpenCon UId="100" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="12" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="13" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text>FC_AIn</Text>
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FC>
+</Document>
